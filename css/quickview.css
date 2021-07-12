@@ -1,0 +1,13 @@
+*{margin: 0;padding: 0;outline: 0;box-sizing: border-box;}
+h1,h2,h3,h4,h5,h6,p{line-height: 0.9;color: tomato;}
+a,a:hover{text-decoration: none;}
+ul,ol{list-style: none;}
+/* all common css End */
+.quick_view_btn{ background: #1ca6f6; color: #fff; font-weight: 700; font-size: 18px; border: none; padding: 15px 10px; transition: .4s; -webkit-transition: .4s; -moz-transition: .4s; -ms-transition: .4s; -o-transition: .4s; cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px;pointer-events: none;}
+
+.cart_btn:hover{background: #1df52f;}
+.pop_window{position: fixed;height: 100%;width: 100%;background: rgba(0, 0, 0, 0.8);top: 0;left: 0;}
+.pop_window .forPosition{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); }
+.pop_window{opacity: 0;pointer-events: none;}
+.pop_window.open{opacity: 1;pointer-events: all;}
+.full_img i{color: tomato;font-size: 30px; cursor: pointer;}
